@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "diysoul",
   description: "diysoul's website",
+  base: "/diysoul-note/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
